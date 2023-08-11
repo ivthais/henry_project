@@ -6,9 +6,11 @@ En este proyecto de modelo de recomendacion abordamos las magnitudes fundamental
 Daremos un recorrido por cada etapa de la creacion del modelo de recomendación.
 
 
+Debes empezar desde 0, haciendo un trabajo rápido de Data Engineer y tener un MVP (Minimum Viable Product) para el cierre del proyecto! Tu cabeza va a explotar exploding_head, pero al menos sabes cual es, conceptualmente, el camino que debes de seguir exclamation. Así que te espantas los miedos y te pones manos a la obra muscle
 
+ 
 PRIMERA PARTE: ETL
-En primera instancia extraemos los dataset para trabajar en ellos, hacemos transformaciones como desanidado de diccionarios y listas, unas columnas con valores nulos se reemplazaron por 0 o fueron eliminadas, eliminamos columnas innecesarias y creamos algunas columnas según lo requerido.
+Se inicio desde 0, haciendo trabajos de Data Engineer para lograr obtener un MVP (como era lo recomendado) en esta etapa se extrajeron datos que se encontraban anidados en estructuras como diccionarios y listas de diccionarios, lo que conceptualmente no permitia hacer lo que se tenia previsto, por esto se aplicaron extracciones de los datos de las estructuras mencionadas arriba, ademas de eso se tuvieron que reemplazar valores que se encontraban nulos, vacios con ceros o en algunos casos se eliminaron algunas de las filas las cuales previamente fueron estudiadas para evitar perdida de informacion valiosa, al mismo tiempo que se desanidaron los datos se eliminaron columnas que resultaron con informacion duplicada esto con la finalidad de optimizar al maximo los recursos con los que se trabajaron ya que finalmente debian tener el tamaño correcto para su manipulacion posterior. 
 
 SEGUNDA PARTE: API
 Para el desarrollo de la API: Se propone disponibilizar los datos usando el framework FastAPI.
