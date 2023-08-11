@@ -1,11 +1,11 @@
 # henry_project
 El siguiente proyecto se basa en la creacion de un modelo de recomendación, el cual nos aproxima bastante al ambito laboral al cual nos enfrentaremos, recibiendo una base de datos la cual se encontraba sin ningun tipo de orden ni relacion, abordando de forma integral todas las etapas de limpieza de un data set, etapas que se lograron evidenciar en el proceso de corregir o eliminar datos formateados incorrectamente, duplicados o incompletos dentro de un gran conjunto de datos, es importante acotar que el modelo se realizo a traves de una tecnologia de codigo abierto con la finalidad de mejorarlo mas adelante o reusar el codigo para otro tipo de recomendación como por ejemplo para restaurantes, museos, libros o de algun otro tipo de interes, otras personas podrian usar el codigo y reproducirlo ya que la gran mayoría de empresas que existen en el mundo dependen de un insumo fundamental: los datos. Los datos son lo que le permite operar de manera eficiente y tomar las mejores decisiones, estimar comportamientos futuros y muchas cosas más siempre y cuando se cuente con las personas que saben almacenarlo en bases de datos, transformarlos y aprovecharlos de la mejor manera.
 
-También es importante mencionar que la implementación del modelo se hace a través de una tecnología de código abierto, que permite que otras personas puedan reproducir y mejorar el modelo en el futuro. Por último, el modelo puede ser extendido a otros problemas de recomendación, como el de música o libros, ya que la metodología es muy generalizable. 😃
+En este proyecto de modelo de recomendacion abordamos las magnitudes fundamentales en el procesamiento de datos que son las  características que definen uno de los principales retos de este proyecto que consistió en el hecho de analizar, identificar y corregir datos en bruto que estaban desordenados, equivocados y mal procesados, usando metodos y tecnicas aprendidas a lo largo de los modulos anteriores.
 
-Este proyecto de machine learning se encuentra en la intersección de las áreas de big data, aprendizaje automático y análisis de datos. En particular, usa técnicas de preprocesado de datos, modelado, evaluación y visualización de resultados, que son temas clave en estas áreas.
+Daremos un recorrido por cada etapa de la creacion del modelo de recomendación.
 
-A continuación una breve explicación paso a paso de lo que se hizo para llegar al producto final (Modelo de recomendación ML)
+
 
 PRIMERA PARTE: ETL
 En primera instancia extraemos los dataset para trabajar en ellos, hacemos transformaciones como desanidado de diccionarios y listas, unas columnas con valores nulos se reemplazaron por 0 o fueron eliminadas, eliminamos columnas innecesarias y creamos algunas columnas según lo requerido.
