@@ -28,3 +28,6 @@ Se crearon seis funciones las cuales se explican a continuacion
 Cuando finalmente toda la informacion se encuentra en la API, y ya todos los datos se han manipulado y nos hemos dado cuenta cuales son los datos que verdaderamente son utiles para nuestro proposito se creó un Sistema de Recomendacion basado en contenido con lo que se genero una matriz con el top de las peliculas mas populares ya que tratar de utilizar el data set completo era muy complicado por el tema de espacio, seguidamente se coloco en formato CSV para su uso, una vez tenia el formato correcto se procede a tomar esa informacion para encontrar similitudes en el contenido de las peliculas para de este modo poder ofrecer algunas recomendaciones segun algunos aspectos de la pelicula buscada.
 
 ## [Video Proyecto](https://drive.google.com/file/d/1askqIgoP0k2EMXVCK1h6L5crPKz_5tcF/view?usp=sharing)
+## [Enlace Render] (https://proyecto-individual-ld1b.onrender.com)
+
+
