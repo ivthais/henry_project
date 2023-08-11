@@ -1,5 +1,5 @@
 # henry_project
-El siguiente proyecto se basa en la creacion de un modelo de recomendación, el cual 
+El siguiente proyecto se basa en la creacion de un modelo de recomendación, el cual nos aproxima bastante al ambito laboral al cual nos enfrentaremos, recibiendo una base de datos la cual se encontraba sin ningun tipo de orden ni relacion, abordando de forma integral todas las etapas de limpieza de un data set.
 Este proyecto se enfoca en la creación de un modelo de recomendación de películas usando un dataset ya procesado y limpio. 😄
 
 También es importante mencionar que la implementación del modelo se hace a través de una tecnología de código abierto, que permite que otras personas puedan reproducir y mejorar el modelo en el futuro. Por último, el modelo puede ser extendido a otros problemas de recomendación, como el de música o libros, ya que la metodología es muy generalizable. 😃
